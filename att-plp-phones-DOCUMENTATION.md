@@ -48,7 +48,7 @@ The **Product** schema is specifically designed for Product Detail Pages (PDPs),
 
 ## 2. Schema Architecture
 
-The `att-plp-phones-PRODUCTION.json` file contains **4 distinct JSON-LD schema objects** packaged in a single JSON array. Each serves a specific purpose:
+The `att-plp-phones-PRODUCTION.json` file contains **2 page-specific JSON-LD schema objects** packaged in a single JSON array. Global schemas (BreadcrumbList, Organization) are handled separately via site-wide templates.
 
 ### 2.1 Primary Schema: CollectionPage
 
@@ -82,42 +82,7 @@ The `att-plp-phones-PRODUCTION.json` file contains **4 distinct JSON-LD schema o
 - Each product has a name, URL, and image
 - Users can discover products without visiting each PDP
 
-### 2.2 Navigation Schema: BreadcrumbList
-
-```json
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.att.com/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Cell Phones",
-      "item": "https://www.att.com/buy/phones/"
-    }
-  ]
-}
-```
-
-**Purpose:** Enables search engines to display breadcrumb navigation in search results.
-
-**Benefits:**
-- Improves click-through rates (users see full path in SERP)
-- Helps search engines understand site hierarchy
-- Reduces bounce rates by providing navigation options
-
-**Expected Google Search Result Display:**
-```
-AT&T › Buy Phones > Cell Phones
-```
-
-### 2.3 Site-Level Schema: WebSite
+### 2.2 Site-Level Schema: WebSite
 
 ```json
 {
@@ -149,36 +114,14 @@ AT&T
 **Implementation Note:**
 This allows users to search AT&T's phone catalog directly from Google without visiting the site first.
 
-### 2.4 Organization Schema: Organization
+### 2.3 Global Schemas (Managed Separately)
 
-```json
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "AT&T",
-  "url": "https://www.att.com",
-  "logo": "https://www.att.com/etc/designs/att-global-web/images/logo.svg",
-  "description": "AT&T is a leading wireless and broadband...",
-  "sameAs": [
-    "https://www.facebook.com/ATT",
-    "https://twitter.com/ATT",
-    "https://www.linkedin.com/company/at&t"
-  ],
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "contactType": "Customer Service",
-    "telephone": "1-800-331-0500"
-  }
-}
-```
+The following schemas are **NOT included** in this file — they are managed via separate global templates that apply site-wide:
 
-**Purpose:** Establishes AT&T's corporate identity and verified contact information.
+- **BreadcrumbList** — Breadcrumb navigation (Home > Cell Phones)
+- **Organization** — AT&T corporate identity, logo, social profiles, and contact info
 
-**Search Engine Uses:**
-- Brand knowledge panels in search results
-- Social profile verification
-- Customer service information
-- Logo display in rich snippets
+These global schemas are injected at the site level to avoid duplication across pages.
 
 ---
 
