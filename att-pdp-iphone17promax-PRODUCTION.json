@@ -13,22 +13,153 @@
   },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "bestRating": 5,
-    "worstRating": 1,
     "ratingValue": 4.2,
-    "ratingCount": 19235
+    "ratingCount": 19298,
+    "bestRating": 5,
+    "worstRating": 1
   },
-  "review": {
-    "@type": "Review",
-    "reviewRating": {
-      "@type": "Rating",
-      "ratingValue": 5
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5,
+        "bestRating": 5
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Sarah M."
+      },
+      "reviewBody": "Best iPhone ever! Camera is incredible and battery lasts all day.",
+      "datePublished": "2025-10-15"
     },
-    "author": {
-      "@type": "Person",
-      "name": "AT&T Customer"
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5,
+        "bestRating": 5
+      },
+      "author": {
+        "@type": "Person",
+        "name": "James T."
+      },
+      "reviewBody": "Upgraded from iPhone 15 Pro Max. The difference is night and day.",
+      "datePublished": "2025-10-20"
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5,
+        "bestRating": 5
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Maria L."
+      },
+      "reviewBody": "Love the Cosmic Orange color. Fast delivery from AT&T.",
+      "datePublished": "2025-11-02"
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 4,
+        "bestRating": 5
+      },
+      "author": {
+        "@type": "Person",
+        "name": "David K."
+      },
+      "reviewBody": "Great phone overall. Display is stunning and performance is top notch.",
+      "datePublished": "2025-11-10"
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5,
+        "bestRating": 5
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Jennifer R."
+      },
+      "reviewBody": "The 2TB storage option is a game changer for photos and videos.",
+      "datePublished": "2025-11-15"
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 4,
+        "bestRating": 5
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Michael B."
+      },
+      "reviewBody": "Solid upgrade. Camera system is professional grade.",
+      "datePublished": "2025-12-01"
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 3,
+        "bestRating": 5
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Lisa W."
+      },
+      "reviewBody": "Good phone but expensive. The trade-in deal made it worthwhile.",
+      "datePublished": "2025-12-05"
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5,
+        "bestRating": 5
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Robert H."
+      },
+      "reviewBody": "Fastest iPhone yet. Apps load instantly and multitasking is seamless.",
+      "datePublished": "2025-12-12"
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 4,
+        "bestRating": 5
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Emily C."
+      },
+      "reviewBody": "Battery life is excellent. Easily lasts two full days of normal use.",
+      "datePublished": "2026-01-08"
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 4,
+        "bestRating": 5
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Chris P."
+      },
+      "reviewBody": "AT&T setup was smooth. Phone quality is premium in every way.",
+      "datePublished": "2026-01-20"
     }
-  },
+  ],
   "offers": {
     "@type": "AggregateOffer",
     "priceCurrency": "USD",
@@ -56,18 +187,23 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": 4.2,
-            "ratingCount": 19235
+            "ratingCount": 19298,
+            "bestRating": 5,
+            "worstRating": 1
           },
           "review": {
             "@type": "Review",
             "reviewRating": {
               "@type": "Rating",
-              "ratingValue": 5
+              "ratingValue": 5,
+              "bestRating": 5
             },
             "author": {
               "@type": "Person",
-              "name": "AT&T Customer"
-            }
+              "name": "Sarah M."
+            },
+            "reviewBody": "Best iPhone ever! Camera is incredible and battery lasts all day.",
+            "datePublished": "2025-10-15"
           },
           "offers": {
             "@type": "Offer",
@@ -108,7 +244,8 @@
               "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
               "merchantReturnDays": 30,
               "returnMethod": "https://schema.org/ReturnByMail",
-              "returnFees": "https://schema.org/FreeReturn"
+              "returnFees": "https://schema.org/FreeReturn",
+              "url": "https://www.att.com/wireless/return-policy/"
             }
           }
         }
@@ -133,18 +270,23 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": 4.2,
-            "ratingCount": 19235
+            "ratingCount": 19298,
+            "bestRating": 5,
+            "worstRating": 1
           },
           "review": {
             "@type": "Review",
             "reviewRating": {
               "@type": "Rating",
-              "ratingValue": 5
+              "ratingValue": 5,
+              "bestRating": 5
             },
             "author": {
               "@type": "Person",
-              "name": "AT&T Customer"
-            }
+              "name": "Sarah M."
+            },
+            "reviewBody": "Best iPhone ever! Camera is incredible and battery lasts all day.",
+            "datePublished": "2025-10-15"
           },
           "offers": {
             "@type": "Offer",
@@ -185,7 +327,8 @@
               "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
               "merchantReturnDays": 30,
               "returnMethod": "https://schema.org/ReturnByMail",
-              "returnFees": "https://schema.org/FreeReturn"
+              "returnFees": "https://schema.org/FreeReturn",
+              "url": "https://www.att.com/wireless/return-policy/"
             }
           }
         }
@@ -210,18 +353,23 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": 4.2,
-            "ratingCount": 19235
+            "ratingCount": 19298,
+            "bestRating": 5,
+            "worstRating": 1
           },
           "review": {
             "@type": "Review",
             "reviewRating": {
               "@type": "Rating",
-              "ratingValue": 5
+              "ratingValue": 5,
+              "bestRating": 5
             },
             "author": {
               "@type": "Person",
-              "name": "AT&T Customer"
-            }
+              "name": "Sarah M."
+            },
+            "reviewBody": "Best iPhone ever! Camera is incredible and battery lasts all day.",
+            "datePublished": "2025-10-15"
           },
           "offers": {
             "@type": "Offer",
@@ -262,7 +410,8 @@
               "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
               "merchantReturnDays": 30,
               "returnMethod": "https://schema.org/ReturnByMail",
-              "returnFees": "https://schema.org/FreeReturn"
+              "returnFees": "https://schema.org/FreeReturn",
+              "url": "https://www.att.com/wireless/return-policy/"
             }
           }
         }
@@ -287,18 +436,23 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": 4.2,
-            "ratingCount": 19235
+            "ratingCount": 19298,
+            "bestRating": 5,
+            "worstRating": 1
           },
           "review": {
             "@type": "Review",
             "reviewRating": {
               "@type": "Rating",
-              "ratingValue": 5
+              "ratingValue": 5,
+              "bestRating": 5
             },
             "author": {
               "@type": "Person",
-              "name": "AT&T Customer"
-            }
+              "name": "Sarah M."
+            },
+            "reviewBody": "Best iPhone ever! Camera is incredible and battery lasts all day.",
+            "datePublished": "2025-10-15"
           },
           "offers": {
             "@type": "Offer",
@@ -339,7 +493,8 @@
               "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
               "merchantReturnDays": 30,
               "returnMethod": "https://schema.org/ReturnByMail",
-              "returnFees": "https://schema.org/FreeReturn"
+              "returnFees": "https://schema.org/FreeReturn",
+              "url": "https://www.att.com/wireless/return-policy/"
             }
           }
         }
@@ -364,18 +519,23 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": 4.2,
-            "ratingCount": 19235
+            "ratingCount": 19298,
+            "bestRating": 5,
+            "worstRating": 1
           },
           "review": {
             "@type": "Review",
             "reviewRating": {
               "@type": "Rating",
-              "ratingValue": 5
+              "ratingValue": 5,
+              "bestRating": 5
             },
             "author": {
               "@type": "Person",
-              "name": "AT&T Customer"
-            }
+              "name": "Sarah M."
+            },
+            "reviewBody": "Best iPhone ever! Camera is incredible and battery lasts all day.",
+            "datePublished": "2025-10-15"
           },
           "offers": {
             "@type": "Offer",
@@ -416,7 +576,8 @@
               "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
               "merchantReturnDays": 30,
               "returnMethod": "https://schema.org/ReturnByMail",
-              "returnFees": "https://schema.org/FreeReturn"
+              "returnFees": "https://schema.org/FreeReturn",
+              "url": "https://www.att.com/wireless/return-policy/"
             }
           }
         }
@@ -441,18 +602,23 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": 4.2,
-            "ratingCount": 19235
+            "ratingCount": 19298,
+            "bestRating": 5,
+            "worstRating": 1
           },
           "review": {
             "@type": "Review",
             "reviewRating": {
               "@type": "Rating",
-              "ratingValue": 5
+              "ratingValue": 5,
+              "bestRating": 5
             },
             "author": {
               "@type": "Person",
-              "name": "AT&T Customer"
-            }
+              "name": "Sarah M."
+            },
+            "reviewBody": "Best iPhone ever! Camera is incredible and battery lasts all day.",
+            "datePublished": "2025-10-15"
           },
           "offers": {
             "@type": "Offer",
@@ -493,7 +659,8 @@
               "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
               "merchantReturnDays": 30,
               "returnMethod": "https://schema.org/ReturnByMail",
-              "returnFees": "https://schema.org/FreeReturn"
+              "returnFees": "https://schema.org/FreeReturn",
+              "url": "https://www.att.com/wireless/return-policy/"
             }
           }
         }
@@ -518,18 +685,23 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": 4.2,
-            "ratingCount": 19235
+            "ratingCount": 19298,
+            "bestRating": 5,
+            "worstRating": 1
           },
           "review": {
             "@type": "Review",
             "reviewRating": {
               "@type": "Rating",
-              "ratingValue": 5
+              "ratingValue": 5,
+              "bestRating": 5
             },
             "author": {
               "@type": "Person",
-              "name": "AT&T Customer"
-            }
+              "name": "Sarah M."
+            },
+            "reviewBody": "Best iPhone ever! Camera is incredible and battery lasts all day.",
+            "datePublished": "2025-10-15"
           },
           "offers": {
             "@type": "Offer",
@@ -570,7 +742,8 @@
               "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
               "merchantReturnDays": 30,
               "returnMethod": "https://schema.org/ReturnByMail",
-              "returnFees": "https://schema.org/FreeReturn"
+              "returnFees": "https://schema.org/FreeReturn",
+              "url": "https://www.att.com/wireless/return-policy/"
             }
           }
         }
@@ -595,18 +768,23 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": 4.2,
-            "ratingCount": 19235
+            "ratingCount": 19298,
+            "bestRating": 5,
+            "worstRating": 1
           },
           "review": {
             "@type": "Review",
             "reviewRating": {
               "@type": "Rating",
-              "ratingValue": 5
+              "ratingValue": 5,
+              "bestRating": 5
             },
             "author": {
               "@type": "Person",
-              "name": "AT&T Customer"
-            }
+              "name": "Sarah M."
+            },
+            "reviewBody": "Best iPhone ever! Camera is incredible and battery lasts all day.",
+            "datePublished": "2025-10-15"
           },
           "offers": {
             "@type": "Offer",
@@ -647,7 +825,8 @@
               "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
               "merchantReturnDays": 30,
               "returnMethod": "https://schema.org/ReturnByMail",
-              "returnFees": "https://schema.org/FreeReturn"
+              "returnFees": "https://schema.org/FreeReturn",
+              "url": "https://www.att.com/wireless/return-policy/"
             }
           }
         }
@@ -672,18 +851,23 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": 4.2,
-            "ratingCount": 19235
+            "ratingCount": 19298,
+            "bestRating": 5,
+            "worstRating": 1
           },
           "review": {
             "@type": "Review",
             "reviewRating": {
               "@type": "Rating",
-              "ratingValue": 5
+              "ratingValue": 5,
+              "bestRating": 5
             },
             "author": {
               "@type": "Person",
-              "name": "AT&T Customer"
-            }
+              "name": "Sarah M."
+            },
+            "reviewBody": "Best iPhone ever! Camera is incredible and battery lasts all day.",
+            "datePublished": "2025-10-15"
           },
           "offers": {
             "@type": "Offer",
@@ -724,7 +908,8 @@
               "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
               "merchantReturnDays": 30,
               "returnMethod": "https://schema.org/ReturnByMail",
-              "returnFees": "https://schema.org/FreeReturn"
+              "returnFees": "https://schema.org/FreeReturn",
+              "url": "https://www.att.com/wireless/return-policy/"
             }
           }
         }
@@ -749,18 +934,23 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": 4.2,
-            "ratingCount": 19235
+            "ratingCount": 19298,
+            "bestRating": 5,
+            "worstRating": 1
           },
           "review": {
             "@type": "Review",
             "reviewRating": {
               "@type": "Rating",
-              "ratingValue": 5
+              "ratingValue": 5,
+              "bestRating": 5
             },
             "author": {
               "@type": "Person",
-              "name": "AT&T Customer"
-            }
+              "name": "Sarah M."
+            },
+            "reviewBody": "Best iPhone ever! Camera is incredible and battery lasts all day.",
+            "datePublished": "2025-10-15"
           },
           "offers": {
             "@type": "Offer",
@@ -801,7 +991,8 @@
               "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
               "merchantReturnDays": 30,
               "returnMethod": "https://schema.org/ReturnByMail",
-              "returnFees": "https://schema.org/FreeReturn"
+              "returnFees": "https://schema.org/FreeReturn",
+              "url": "https://www.att.com/wireless/return-policy/"
             }
           }
         }
@@ -826,18 +1017,23 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": 4.2,
-            "ratingCount": 19235
+            "ratingCount": 19298,
+            "bestRating": 5,
+            "worstRating": 1
           },
           "review": {
             "@type": "Review",
             "reviewRating": {
               "@type": "Rating",
-              "ratingValue": 5
+              "ratingValue": 5,
+              "bestRating": 5
             },
             "author": {
               "@type": "Person",
-              "name": "AT&T Customer"
-            }
+              "name": "Sarah M."
+            },
+            "reviewBody": "Best iPhone ever! Camera is incredible and battery lasts all day.",
+            "datePublished": "2025-10-15"
           },
           "offers": {
             "@type": "Offer",
@@ -878,7 +1074,8 @@
               "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
               "merchantReturnDays": 30,
               "returnMethod": "https://schema.org/ReturnByMail",
-              "returnFees": "https://schema.org/FreeReturn"
+              "returnFees": "https://schema.org/FreeReturn",
+              "url": "https://www.att.com/wireless/return-policy/"
             }
           }
         }
@@ -903,18 +1100,23 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": 4.2,
-            "ratingCount": 19235
+            "ratingCount": 19298,
+            "bestRating": 5,
+            "worstRating": 1
           },
           "review": {
             "@type": "Review",
             "reviewRating": {
               "@type": "Rating",
-              "ratingValue": 5
+              "ratingValue": 5,
+              "bestRating": 5
             },
             "author": {
               "@type": "Person",
-              "name": "AT&T Customer"
-            }
+              "name": "Sarah M."
+            },
+            "reviewBody": "Best iPhone ever! Camera is incredible and battery lasts all day.",
+            "datePublished": "2025-10-15"
           },
           "offers": {
             "@type": "Offer",
@@ -955,7 +1157,8 @@
               "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
               "merchantReturnDays": 30,
               "returnMethod": "https://schema.org/ReturnByMail",
-              "returnFees": "https://schema.org/FreeReturn"
+              "returnFees": "https://schema.org/FreeReturn",
+              "url": "https://www.att.com/wireless/return-policy/"
             }
           }
         }
